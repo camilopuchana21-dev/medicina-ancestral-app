@@ -46,3 +46,13 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Archivos de Flutter
+.dart_tool/
+.packages
+build/
+ios/Pods/
+.flutter-plugins
+
+# Archivos de entorno
+.env

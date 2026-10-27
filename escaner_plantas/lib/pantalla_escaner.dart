@@ -49,7 +49,7 @@ class _PantallaEscanerState extends State<PantallaEscaner> {
         Uri.parse('https://api.plant.id/v2/identify'),
         headers: {
           'Content-Type': 'application/json',
-          'Api-Key': '8X0szeWdzteVT3UZvT4EQSkf6r8FDkylMSPzDd1LXXvfQtzz2M' 
+          'Api-Key': 'clave' 
         },
         body: jsonEncode({
           "images": [base64Image],

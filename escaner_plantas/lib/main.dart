@@ -10,8 +10,8 @@ Future<void> main() async {
   
   // 1. INICIALIZAMOS SUPABASE (PEGA TUS DATOS AQUÍ 👇)
   await Supabase.initialize(
-    url: 'https://icgdoihzvgmopsimpwlm.supabase.co', // Ejemplo: https://xxxxxx.supabase.co
-    anonKey: 'sb_publishable_u5OnQTBvxv7pVfVATPNIAA_xB-uOS7Z', // Ejemplo: sb_publishable_xxxxxx
+    url: '', // Ejemplo: https://xxxxxx.supabase.co
+    anonKey: '', // Ejemplo: sb_publishable_xxxxxx
   );
 
   try {
